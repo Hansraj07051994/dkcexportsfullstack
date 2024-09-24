@@ -63,16 +63,12 @@ function ResponsiveAppBar() {
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
-                fontFamily: 'monospace',
-                fontWeight: 700,
-                letterSpacing: '.3rem',
+                fontFamily: 'font-serif',
                 color: 'inherit',
                 textDecoration: 'none',
-              }}
-            >
-              DKC EXPORTS
+              }} 
+            ><span className='font-extrabold text-3xl'>DKC EXPORTS</span>
             </Typography>
-
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
               <IconButton
                 size="large"
@@ -142,7 +138,7 @@ function ResponsiveAppBar() {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="User Avatar" src="https://via.placeholder.com/150" />
+                  <Avatar alt="User Avatar" src="/Profile.png" />
                 </IconButton>
               </Tooltip>
               <Menu
