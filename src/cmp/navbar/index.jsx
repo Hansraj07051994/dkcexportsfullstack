@@ -16,7 +16,7 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const pageLinks = [
   { name: 'Home', path: '/' },
-  { name: 'TNA FORM', path: '/tnaform' },
+  { name: 'TNA FORM', path: '/tna_form' },
   { name: 'EXTRA', path: '/extra' },
 ];
 
@@ -50,7 +50,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <div className='mx-20 p-2'>
+    <div className='p-2'>
       <AppBar position="static" className='rounded-xl'>
         <Container maxWidth="xl">
           <Toolbar disableGutters>

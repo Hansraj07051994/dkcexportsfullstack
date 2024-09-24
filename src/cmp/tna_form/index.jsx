@@ -537,7 +537,7 @@ const DynamicFabricForm = () => {
               ></path>
             </svg>
           </div>
-          <p class="translate-x-2 font-serif">GO BACK</p>
+          <p class="translate-x-2 font-serif"><a href="tna_form">GO BACK HOME</a></p>
         </button>
       </div>
     </div>
